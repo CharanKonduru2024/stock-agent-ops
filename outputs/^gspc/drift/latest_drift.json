@@ -1,0 +1,35 @@
+{
+  "health": "Degraded (Warning)",
+  "drift_score": 1.4052,
+  "volatility_index": 0.85,
+  "feature_metrics": {
+    "Open": {
+      "ref_mean": 6574.39,
+      "curr_mean": 6860.9,
+      "shift_score": 1.4941
+    },
+    "High": {
+      "ref_mean": 6600.33,
+      "curr_mean": 6884.1,
+      "shift_score": 1.4571
+    },
+    "Low": {
+      "ref_mean": 6542.33,
+      "curr_mean": 6832.51,
+      "shift_score": 1.5409
+    },
+    "Close": {
+      "ref_mean": 6573.46,
+      "curr_mean": 6856.64,
+      "shift_score": 1.4837
+    },
+    "Volume": {
+      "ref_mean": 5246965754.72,
+      "curr_mean": 4493270000.0,
+      "shift_score": 1.0501
+    }
+  },
+  "timestamp": "2026-01-04T20:56:46.340689",
+  "status": "success",
+  "ticker": "^GSPC"
+}

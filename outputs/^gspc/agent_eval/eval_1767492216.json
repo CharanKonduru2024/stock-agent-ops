@@ -1,0 +1,15 @@
+{
+  "ticker": "^GSPC",
+  "metrics": {
+    "checks": {
+      "relevance": true,
+      "trustworthiness": false,
+      "has_recommendation": false
+    },
+    "overall_score": 0.33,
+    "status": "Questionable",
+    "duration_seconds": 0.41,
+    "timestamp": "2026-01-04T02:03:36.937449"
+  },
+  "output_preview_text": "{'status': 'training', 'detail': 'Model for ^GSPC is being trained. Retry after a few seconds.', 'ticker': '^GSPC'}"
+}

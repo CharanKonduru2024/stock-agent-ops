@@ -1,0 +1,15 @@
+{
+  "ticker": "NVDA, AAPL",
+  "metrics": {
+    "checks": {
+      "relevance": true,
+      "trustworthiness": false,
+      "has_recommendation": false
+    },
+    "overall_score": 0.33,
+    "status": "Questionable",
+    "duration_seconds": 0.16,
+    "timestamp": "2026-01-04T20:57:09.417913"
+  },
+  "output_preview_text": "{'status': 'training', 'detail': 'Model for NVDA, AAPL is being trained. Retry after a few seconds.', 'ticker': 'NVDA, AAPL'}"
+}

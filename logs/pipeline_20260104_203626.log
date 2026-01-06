@@ -1,0 +1,173 @@
+2026-01-04 20:36:50 - StockPredictionPipeline - INFO - [utils.py:36] - ✓ Added DagsHub app token
+2026-01-04 20:36:50 - StockPredictionPipeline - INFO - [utils.py:39] - ✓ DagsHub app token already exists
+2026-01-04 20:36:50 - StockPredictionPipeline - INFO - [utils.py:39] - ✓ DagsHub app token already exists
+2026-01-04 20:36:50 - StockPredictionPipeline - INFO - [utils.py:36] - ✓ Added DagsHub app token
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:49] - ✓ DagsHub MLflow tracking initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:60] - ✓ MLflow Model Registry initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:68] - ✓ DagsHub authentication configured
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [main.py:57] - ✅ Systems online (Redis, MLflow, Agents)
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:49] - ✓ DagsHub MLflow tracking initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:60] - ✓ MLflow Model Registry initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:68] - ✓ DagsHub authentication configured
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:49] - ✓ DagsHub MLflow tracking initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:60] - ✓ MLflow Model Registry initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:68] - ✓ DagsHub authentication configured
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [main.py:57] - ✅ Systems online (Redis, MLflow, Agents)
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [main.py:57] - ✅ Systems online (Redis, MLflow, Agents)
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:49] - ✓ DagsHub MLflow tracking initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:60] - ✓ MLflow Model Registry initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [utils.py:68] - ✓ DagsHub authentication configured
+2026-01-04 20:36:51 - StockPredictionPipeline - INFO - [main.py:57] - ✅ Systems online (Redis, MLflow, Agents)
+2026-01-04 20:43:15 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for GOOG: Missing PyTorch file for GOOG: outputs/GOOG/GOOG_child_model.pt
+2026-01-04 20:43:15 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for GOOG: Missing PyTorch file for GOOG: outputs/GOOG/GOOG_child_model.pt
+2026-01-04 20:43:15 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for GOOG: Missing PyTorch file for GOOG: outputs/GOOG/GOOG_child_model.pt
+2026-01-04 20:43:15 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for GOOG, triggering auto-training.
+2026-01-04 20:43:26 - StockPredictionPipeline - INFO - [training_pipeline.py:161] - 🔁 Loaded parent weights from outputs/parent/^GSPC_parent_model.pt
+2026-01-04 20:43:26 - StockPredictionPipeline - INFO - [training_pipeline.py:167] - ❄️ Strategy: Freeze LSTM layers
+2026-01-04 20:43:40 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/10 - Train Loss: 0.16373
+2026-01-04 20:43:42 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/10 - Val Loss: 0.13911
+2026-01-04 20:43:48 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/10 - Train Loss: 0.14380
+2026-01-04 20:43:49 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/10 - Val Loss: 0.13119
+2026-01-04 20:43:54 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/10 - Train Loss: 0.13626
+2026-01-04 20:43:56 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/10 - Val Loss: 0.12637
+2026-01-04 20:44:02 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 4/10 - Train Loss: 0.13008
+2026-01-04 20:44:03 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 4/10 - Val Loss: 0.12286
+2026-01-04 20:44:11 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 5/10 - Train Loss: 0.12743
+2026-01-04 20:44:14 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 5/10 - Val Loss: 0.12042
+2026-01-04 20:44:22 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 6/10 - Train Loss: 0.12341
+2026-01-04 20:44:23 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 6/10 - Val Loss: 0.11882
+2026-01-04 20:44:28 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 7/10 - Train Loss: 0.12142
+2026-01-04 20:44:29 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 7/10 - Val Loss: 0.11736
+2026-01-04 20:44:34 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 8/10 - Train Loss: 0.11968
+2026-01-04 20:44:35 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 8/10 - Val Loss: 0.11593
+2026-01-04 20:44:40 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 9/10 - Train Loss: 0.11808
+2026-01-04 20:44:41 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 9/10 - Val Loss: 0.11499
+2026-01-04 20:44:46 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 10/10 - Train Loss: 0.11658
+2026-01-04 20:44:47 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 10/10 - Val Loss: 0.11425
+2026-01-04 20:44:49 - StockPredictionPipeline - INFO - [inference_pipeline.py:69] - ✅ Loaded child model for GOOG
+2026-01-04 20:45:02 - StockPredictionPipeline - INFO - [inference_pipeline.py:156] - ✅ Fetched online features from Feast for GOOG: {'ticker': ['GOOG'], 'Close': [None], 'Volume': [None], 'MACD': [None], 'Low': [None], 'RSI14': [None], 'High': [None], 'Open': [None]}
+2026-01-04 20:45:02 - StockPredictionPipeline - INFO - [inference_pipeline.py:180] - ✅ Child prediction completed for GOOG
+2026-01-04 20:45:02 - StockPredictionPipeline - INFO - [nodes.py:41] - 📈 [Agent: Performance] Analyzing trends for GOOG
+2026-01-04 20:46:04 - StockPredictionPipeline - INFO - [evaluation.py:93] - GOOG → MSE: 0.06382, RMSE: 0.25262, R²: 0.93114
+2026-01-04 20:46:09 - StockPredictionPipeline - INFO - [training_pipeline.py:200] - ✅ Child GOOG trained successfully
+2026-01-04 20:46:09 - StockPredictionPipeline - INFO - [tasks.py:85] - Task goog: Training complete, running chained task...
+2026-01-04 20:46:09 - StockPredictionPipeline - INFO - [api.py:225] - Auto-predicting for GOOG after auto-training...
+2026-01-04 20:46:09 - StockPredictionPipeline - INFO - [inference_pipeline.py:69] - ✅ Loaded child model for GOOG
+2026-01-04 20:46:17 - StockPredictionPipeline - INFO - [inference_pipeline.py:156] - ✅ Fetched online features from Feast for GOOG: {'ticker': ['GOOG'], 'MACD': [None], 'Close': [None], 'Low': [None], 'RSI14': [None], 'High': [None], 'Volume': [None], 'Open': [None]}
+2026-01-04 20:46:17 - StockPredictionPipeline - INFO - [inference_pipeline.py:180] - ✅ Child prediction completed for GOOG
+2026-01-04 20:46:17 - StockPredictionPipeline - INFO - [tasks.py:88] - Task goog: Chained task complete.
+2026-01-04 20:54:52 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:54:52 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:54:52 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:54:52 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for NVDA, triggering auto-training.
+2026-01-04 20:55:01 - StockPredictionPipeline - INFO - [training_pipeline.py:161] - 🔁 Loaded parent weights from outputs/parent/^GSPC_parent_model.pt
+2026-01-04 20:55:01 - StockPredictionPipeline - INFO - [training_pipeline.py:167] - ❄️ Strategy: Freeze LSTM layers
+2026-01-04 20:55:08 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/10 - Train Loss: 0.23100
+2026-01-04 20:55:09 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/10 - Val Loss: 0.21414
+2026-01-04 20:55:14 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/10 - Train Loss: 0.19927
+2026-01-04 20:55:15 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/10 - Val Loss: 0.20042
+2026-01-04 20:55:20 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/10 - Train Loss: 0.18774
+2026-01-04 20:55:21 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/10 - Val Loss: 0.19197
+2026-01-04 20:55:26 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 4/10 - Train Loss: 0.18138
+2026-01-04 20:55:28 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 4/10 - Val Loss: 0.18680
+2026-01-04 20:55:32 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 5/10 - Train Loss: 0.17692
+2026-01-04 20:55:34 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 5/10 - Val Loss: 0.18381
+2026-01-04 20:55:36 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating AAPL...
+2026-01-04 20:55:37 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for AAPL: Missing PyTorch file for AAPL: outputs/AAPL/AAPL_child_model.pt
+2026-01-04 20:55:37 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for AAPL: Missing PyTorch file for AAPL: outputs/AAPL/AAPL_child_model.pt
+2026-01-04 20:55:37 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for AAPL: Missing PyTorch file for AAPL: outputs/AAPL/AAPL_child_model.pt
+2026-01-04 20:55:37 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for AAPL, triggering auto-training.
+2026-01-04 20:55:37 - StockPredictionPipeline - INFO - [agent_eval.py:65] - ✅ [Agent Eval] Score=0.33
+2026-01-04 20:55:48 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 6/10 - Train Loss: 0.17424
+2026-01-04 20:55:49 - StockPredictionPipeline - INFO - [training_pipeline.py:161] - 🔁 Loaded parent weights from outputs/parent/^GSPC_parent_model.pt
+2026-01-04 20:55:49 - StockPredictionPipeline - INFO - [training_pipeline.py:167] - ❄️ Strategy: Freeze LSTM layers
+2026-01-04 20:55:57 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 6/10 - Val Loss: 0.18141
+2026-01-04 20:56:27 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/10 - Train Loss: 0.14826
+2026-01-04 20:56:34 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating NVDA...
+2026-01-04 20:56:34 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:34 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:34 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:34 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for NVDA, triggering auto-training.
+2026-01-04 20:56:34 - StockPredictionPipeline - INFO - [agent_eval.py:65] - ✅ [Agent Eval] Score=0.33
+2026-01-04 20:56:35 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 7/10 - Train Loss: 0.17212
+2026-01-04 20:56:36 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/10 - Val Loss: 0.13114
+2026-01-04 20:56:36 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating NVDA...
+2026-01-04 20:56:36 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:36 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:36 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:36 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for NVDA, triggering auto-training.
+2026-01-04 20:56:36 - StockPredictionPipeline - INFO - [agent_eval.py:65] - ✅ [Agent Eval] Score=0.33
+2026-01-04 20:56:42 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating NVDA...
+2026-01-04 20:56:42 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:42 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:42 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 20:56:42 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for NVDA, triggering auto-training.
+2026-01-04 20:56:42 - StockPredictionPipeline - INFO - [agent_eval.py:65] - ✅ [Agent Eval] Score=0.33
+2026-01-04 20:56:45 - StockPredictionPipeline - INFO - [drift.py:94] - 📊 [Custom Drift] Checking ^GSPC...
+2026-01-04 20:56:46 - StockPredictionPipeline - INFO - [drift.py:123] - ✅ [Drift] ^GSPC: Status=Degraded (Warning), Score=1.4052
+2026-01-04 20:56:46 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating ^GSPC...
+2026-01-04 20:56:46 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for ^GSPC: Missing PyTorch file for ^GSPC: outputs/^GSPC/^GSPC_child_model.pt
+2026-01-04 20:56:46 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for ^GSPC: Missing PyTorch file for ^GSPC: outputs/^GSPC/^GSPC_child_model.pt
+2026-01-04 20:56:46 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for ^GSPC: Missing PyTorch file for ^GSPC: outputs/^GSPC/^GSPC_child_model.pt
+2026-01-04 20:56:46 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for ^GSPC, triggering auto-training.
+2026-01-04 20:56:46 - StockPredictionPipeline - INFO - [agent_eval.py:65] - ✅ [Agent Eval] Score=0.33
+2026-01-04 20:56:52 - StockPredictionPipeline - INFO - [training_pipeline.py:161] - 🔁 Loaded parent weights from outputs/parent/^GSPC_parent_model.pt
+2026-01-04 20:56:52 - StockPredictionPipeline - INFO - [training_pipeline.py:167] - ❄️ Strategy: Freeze LSTM layers
+2026-01-04 20:56:53 - StockPredictionPipeline - INFO - [training_pipeline.py:161] - 🔁 Loaded parent weights from outputs/parent/^GSPC_parent_model.pt
+2026-01-04 20:56:53 - StockPredictionPipeline - INFO - [training_pipeline.py:167] - ❄️ Strategy: Freeze LSTM layers
+2026-01-04 20:56:57 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 7/10 - Val Loss: 0.17906
+2026-01-04 20:56:58 - StockPredictionPipeline - INFO - [training_pipeline.py:161] - 🔁 Loaded parent weights from outputs/parent/^GSPC_parent_model.pt
+2026-01-04 20:56:58 - StockPredictionPipeline - INFO - [training_pipeline.py:167] - ❄️ Strategy: Freeze LSTM layers
+2026-01-04 20:57:02 - StockPredictionPipeline - INFO - [training_pipeline.py:161] - 🔁 Loaded parent weights from outputs/parent/^GSPC_parent_model.pt
+2026-01-04 20:57:02 - StockPredictionPipeline - INFO - [training_pipeline.py:167] - ❄️ Strategy: Freeze LSTM layers
+2026-01-04 20:57:09 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating NVDA, AAPL...
+2026-01-04 20:57:09 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA, AAPL: Missing PyTorch file for NVDA, AAPL: outputs/NVDA, AAPL/NVDA, AAPL_child_model.pt
+2026-01-04 20:57:09 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for NVDA, AAPL: Missing PyTorch file for NVDA, AAPL: outputs/NVDA, AAPL/NVDA, AAPL_child_model.pt
+2026-01-04 20:57:09 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA, AAPL: Missing PyTorch file for NVDA, AAPL: outputs/NVDA, AAPL/NVDA, AAPL_child_model.pt
+2026-01-04 20:57:09 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for NVDA, AAPL, triggering auto-training.
+2026-01-04 20:57:09 - StockPredictionPipeline - INFO - [agent_eval.py:65] - ✅ [Agent Eval] Score=0.33
+2026-01-04 20:57:10 - StockPredictionPipeline - ERROR - [training_pipeline.py:203] - Child training failed: Failed to fetch data for NVDA, AAPL: Cannot set a DataFrame with multiple columns to the single column RSI14
+2026-01-04 20:57:11 - StockPredictionPipeline - ERROR - [tasks.py:106] - Training failed: Child training failed: Failed to fetch data for NVDA, AAPL: Cannot set a DataFrame with multiple columns to the single column RSI14
+2026-01-04 20:57:19 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/10 - Train Loss: 0.23449
+2026-01-04 20:57:21 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/10 - Train Loss: 0.13180
+2026-01-04 20:57:21 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating GOOG...
+2026-01-04 20:57:21 - StockPredictionPipeline - INFO - [inference_pipeline.py:69] - ✅ Loaded child model for GOOG
+2026-01-04 20:57:24 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/10 - Train Loss: 0.23646
+2026-01-04 20:57:24 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 8/10 - Train Loss: 0.17006
+2026-01-04 20:57:26 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/10 - Train Loss: 0.22933
+2026-01-04 20:57:26 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/10 - Val Loss: 0.19705
+2026-01-04 20:57:28 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/10 - Val Loss: 0.12324
+2026-01-04 20:57:31 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/10 - Val Loss: 0.19421
+2026-01-04 20:57:31 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 8/10 - Val Loss: 0.17795
+2026-01-04 20:57:32 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/10 - Val Loss: 0.21393
+2026-01-04 20:57:32 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/10 - Train Loss: 0.08261
+2026-01-04 20:57:36 - StockPredictionPipeline - INFO - [inference_pipeline.py:156] - ✅ Fetched online features from Feast for GOOG: {'ticker': ['GOOG'], 'Close': [None], 'Volume': [None], 'MACD': [None], 'Low': [None], 'RSI14': [None], 'High': [None], 'Open': [None]}
+2026-01-04 20:57:36 - StockPredictionPipeline - INFO - [inference_pipeline.py:180] - ✅ Child prediction completed for GOOG
+2026-01-04 20:57:36 - StockPredictionPipeline - INFO - [nodes.py:41] - 📈 [Agent: Performance] Analyzing trends for GOOG
+2026-01-04 20:57:36 - StockPredictionPipeline - ERROR - [agent_eval.py:37] - ❌ Agent Run Failed: [Errno 101] Network is unreachable
+2026-01-04 20:57:37 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating AAPL...
+2026-01-04 20:57:37 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for AAPL: Missing PyTorch file for AAPL: outputs/AAPL/AAPL_child_model.pt
+2026-01-04 20:57:37 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for AAPL: Missing PyTorch file for AAPL: outputs/AAPL/AAPL_child_model.pt
+2026-01-04 20:57:37 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for AAPL: Missing PyTorch file for AAPL: outputs/AAPL/AAPL_child_model.pt
+2026-01-04 20:57:37 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for AAPL, triggering auto-training.
+2026-01-04 20:57:37 - StockPredictionPipeline - INFO - [agent_eval.py:65] - ✅ [Agent Eval] Score=0.33
+2026-01-04 20:57:39 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/10 - Val Loss: 0.08209
+2026-01-04 20:57:54 - StockPredictionPipeline - INFO - [training_pipeline.py:161] - 🔁 Loaded parent weights from outputs/parent/^GSPC_parent_model.pt
+2026-01-04 20:57:54 - StockPredictionPipeline - INFO - [training_pipeline.py:167] - ❄️ Strategy: Freeze LSTM layers
+2026-01-04 20:57:56 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/10 - Train Loss: 0.20247
+2026-01-04 20:57:59 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/10 - Train Loss: 0.12526
+2026-01-04 20:58:02 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 9/10 - Train Loss: 0.16884
+2026-01-04 20:58:02 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/10 - Train Loss: 0.20485
+2026-01-04 20:58:04 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/10 - Val Loss: 0.18230
+2026-01-04 20:58:04 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/10 - Train Loss: 0.19961
+2026-01-04 20:58:07 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/10 - Val Loss: 0.11883
+2026-01-04 20:58:09 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 9/10 - Val Loss: 0.17654
+2026-01-04 20:58:09 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/10 - Val Loss: 0.17937
+2026-01-04 20:58:10 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/10 - Train Loss: 0.08221
+2026-01-04 20:58:10 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/10 - Val Loss: 0.20133
+2026-01-04 20:58:16 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/10 - Val Loss: 0.08187
+2026-01-04 20:58:29 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/10 - Train Loss: 0.14842
+2026-01-04 20:58:33 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/10 - Train Loss: 0.19171
+2026-01-04 20:58:38 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/10 - Val Loss: 0.13322
+2026-01-04 20:58:39 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 10/10 - Train Loss: 0.16700
+2026-01-04 20:58:42 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/10 - Train Loss: 0.19360

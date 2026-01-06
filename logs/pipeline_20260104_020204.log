@@ -1,0 +1,296 @@
+2026-01-04 02:02:15 - StockPredictionPipeline - INFO - [utils.py:39] - ✓ DagsHub app token already exists
+2026-01-04 02:02:15 - StockPredictionPipeline - INFO - [utils.py:36] - ✓ Added DagsHub app token
+2026-01-04 02:02:15 - StockPredictionPipeline - INFO - [utils.py:36] - ✓ Added DagsHub app token
+2026-01-04 02:02:15 - StockPredictionPipeline - INFO - [utils.py:36] - ✓ Added DagsHub app token
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:49] - ✓ DagsHub MLflow tracking initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:60] - ✓ MLflow Model Registry initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:68] - ✓ DagsHub authentication configured
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:49] - ✓ DagsHub MLflow tracking initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:49] - ✓ DagsHub MLflow tracking initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:60] - ✓ MLflow Model Registry initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:60] - ✓ MLflow Model Registry initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:68] - ✓ DagsHub authentication configured
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:68] - ✓ DagsHub authentication configured
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:49] - ✓ DagsHub MLflow tracking initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:60] - ✓ MLflow Model Registry initialized: https://dagshub.com/charankonduru2003/stock_ops.mlflow
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [utils.py:68] - ✓ DagsHub authentication configured
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [main.py:57] - ✅ Systems online (Redis, MLflow, Agents)
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [main.py:57] - ✅ Systems online (Redis, MLflow, Agents)
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [main.py:57] - ✅ Systems online (Redis, MLflow, Agents)
+2026-01-04 02:02:16 - StockPredictionPipeline - INFO - [main.py:57] - ✅ Systems online (Redis, MLflow, Agents)
+2026-01-04 02:02:46 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:02:46 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:02:46 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:02:46 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for NVDA, triggering auto-training.
+2026-01-04 02:02:46 - StockPredictionPipeline - WARNING - [api.py:211] - Parent model missing. Triggering parent training first.
+2026-01-04 02:03:05 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/20 - Train Loss: 0.35439
+2026-01-04 02:03:06 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/20 - Val Loss: 0.18955
+2026-01-04 02:03:17 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/20 - Train Loss: 0.16051
+2026-01-04 02:03:17 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/20 - Val Loss: 0.15339
+2026-01-04 02:03:27 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/20 - Train Loss: 0.13935
+2026-01-04 02:03:28 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/20 - Val Loss: 0.13660
+2026-01-04 02:03:36 - StockPredictionPipeline - INFO - [drift.py:94] - 📊 [Custom Drift] Checking ^GSPC...
+2026-01-04 02:03:36 - StockPredictionPipeline - INFO - [drift.py:123] - ✅ [Drift] ^GSPC: Status=Degraded (Warning), Score=1.4052
+2026-01-04 02:03:36 - StockPredictionPipeline - INFO - [agent_eval.py:21] - 🤖 [Agent Eval] Evaluating ^GSPC...
+2026-01-04 02:03:36 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for ^GSPC: Missing PyTorch file for ^GSPC: outputs/^GSPC/^GSPC_child_model.pt
+2026-01-04 02:03:36 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for ^GSPC: Missing PyTorch file for ^GSPC: outputs/^GSPC/^GSPC_child_model.pt
+2026-01-04 02:03:36 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for ^GSPC: Missing PyTorch file for ^GSPC: outputs/^GSPC/^GSPC_child_model.pt
+2026-01-04 02:03:36 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for ^GSPC, triggering auto-training.
+2026-01-04 02:03:36 - StockPredictionPipeline - WARNING - [api.py:211] - Parent model missing. Triggering parent training first.
+2026-01-04 02:03:36 - StockPredictionPipeline - INFO - [agent_eval.py:65] - ✅ [Agent Eval] Score=0.33
+2026-01-04 02:03:57 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 4/20 - Train Loss: 0.13389
+2026-01-04 02:04:07 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 4/20 - Val Loss: 0.12844
+2026-01-04 02:05:29 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/20 - Train Loss: 0.37885
+2026-01-04 02:05:33 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/20 - Train Loss: 0.36503
+2026-01-04 02:05:39 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/20 - Val Loss: 0.19583
+2026-01-04 02:05:44 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/20 - Val Loss: 0.17888
+2026-01-04 02:05:49 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 5/20 - Train Loss: 0.12766
+2026-01-04 02:05:54 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 5/20 - Val Loss: 0.13678
+2026-01-04 02:06:31 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/20 - Train Loss: 0.37746
+2026-01-04 02:06:35 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/20 - Val Loss: 0.20608
+2026-01-04 02:06:44 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 6/20 - Train Loss: 0.12322
+2026-01-04 02:06:49 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 6/20 - Val Loss: 0.12669
+2026-01-04 02:07:17 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:07:17 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:07:17 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:07:17 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for NVDA, triggering auto-training.
+2026-01-04 02:07:17 - StockPredictionPipeline - WARNING - [api.py:211] - Parent model missing. Triggering parent training first.
+2026-01-04 02:07:32 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/20 - Train Loss: 0.16087
+2026-01-04 02:07:38 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/20 - Val Loss: 0.15247
+2026-01-04 02:07:43 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/20 - Train Loss: 0.16501
+2026-01-04 02:07:49 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/20 - Val Loss: 0.14340
+2026-01-04 02:07:50 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 7/20 - Train Loss: 0.12000
+2026-01-04 02:07:55 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 7/20 - Val Loss: 0.11736
+2026-01-04 02:07:58 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/20 - Train Loss: 0.16385
+2026-01-04 02:08:15 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/20 - Val Loss: 0.14793
+2026-01-04 02:08:23 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/20 - Train Loss: 0.37967
+2026-01-04 02:08:30 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/20 - Val Loss: 0.18887
+2026-01-04 02:08:34 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/20 - Train Loss: 0.14104
+2026-01-04 02:08:37 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/20 - Val Loss: 0.14290
+2026-01-04 02:08:40 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/20 - Train Loss: 0.14390
+2026-01-04 02:08:43 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/20 - Val Loss: 0.13341
+2026-01-04 02:08:44 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 8/20 - Train Loss: 0.11672
+2026-01-04 02:08:46 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 8/20 - Val Loss: 0.11334
+2026-01-04 02:12:29 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/20 - Train Loss: 0.16438
+2026-01-04 02:12:32 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/20 - Val Loss: 0.15033
+2026-01-04 02:12:38 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 4/20 - Train Loss: 0.13353
+2026-01-04 02:12:41 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 4/20 - Val Loss: 0.13316
+2026-01-04 02:13:05 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/20 - Train Loss: 0.13971
+2026-01-04 02:13:11 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/20 - Val Loss: 0.14005
+2026-01-04 02:13:16 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 5/20 - Train Loss: 0.12633
+2026-01-04 02:13:19 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 5/20 - Val Loss: 0.12839
+2026-01-04 02:28:48 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 4/20 - Train Loss: 0.13110
+2026-01-04 02:28:53 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 4/20 - Val Loss: 0.13318
+2026-01-04 02:29:03 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 6/20 - Train Loss: 0.12239
+2026-01-04 02:29:08 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 6/20 - Val Loss: 0.12865
+2026-01-04 02:29:47 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 5/20 - Train Loss: 0.12854
+2026-01-04 02:29:51 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 9/20 - Train Loss: 0.11304
+2026-01-04 02:29:52 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 4/20 - Train Loss: 0.13500
+2026-01-04 02:29:52 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 5/20 - Val Loss: 0.13101
+2026-01-04 02:29:56 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 9/20 - Val Loss: 0.11557
+2026-01-04 02:29:56 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 4/20 - Val Loss: 0.13247
+2026-01-04 02:29:59 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 7/20 - Train Loss: 0.11903
+2026-01-04 02:30:04 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 7/20 - Val Loss: 0.12208
+2026-01-04 02:30:22 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/20 - Train Loss: 0.14134
+2026-01-04 02:30:38 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/20 - Val Loss: 0.14675
+2026-01-04 02:30:44 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 6/20 - Train Loss: 0.12246
+2026-01-04 02:30:47 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 5/20 - Train Loss: 0.12906
+2026-01-04 02:30:47 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 10/20 - Train Loss: 0.11084
+2026-01-04 02:30:49 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 6/20 - Val Loss: 0.12479
+2026-01-04 02:30:52 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 10/20 - Val Loss: 0.11477
+2026-01-04 02:30:52 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 5/20 - Val Loss: 0.12307
+2026-01-04 02:30:56 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 8/20 - Train Loss: 0.11527
+2026-01-04 02:31:01 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 8/20 - Val Loss: 0.12528
+2026-01-04 02:31:45 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 11/20 - Train Loss: 0.10958
+2026-01-04 02:31:49 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 7/20 - Train Loss: 0.11910
+2026-01-04 02:31:50 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 11/20 - Val Loss: 0.11024
+2026-01-04 02:31:54 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 6/20 - Train Loss: 0.12402
+2026-01-04 02:31:55 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 9/20 - Train Loss: 0.11458
+2026-01-04 02:31:56 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 7/20 - Val Loss: 0.12039
+2026-01-04 02:32:01 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 6/20 - Val Loss: 0.12801
+2026-01-04 02:32:01 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 9/20 - Val Loss: 0.11553
+2026-01-04 02:32:46 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 12/20 - Train Loss: 0.10694
+2026-01-04 02:32:51 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 12/20 - Val Loss: 0.10936
+2026-01-04 02:32:55 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 10/20 - Train Loss: 0.10939
+2026-01-04 02:32:58 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 8/20 - Train Loss: 0.11406
+2026-01-04 02:32:59 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 10/20 - Val Loss: 0.11629
+2026-01-04 02:33:03 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 7/20 - Train Loss: 0.12189
+2026-01-04 02:33:04 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 8/20 - Val Loss: 0.11723
+2026-01-04 02:33:08 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 7/20 - Val Loss: 0.12210
+2026-01-04 02:33:19 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 4/20 - Train Loss: 0.13312
+2026-01-04 02:33:35 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 4/20 - Val Loss: 0.12570
+2026-01-04 02:33:42 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 13/20 - Train Loss: 0.10491
+2026-01-04 02:33:47 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 13/20 - Val Loss: 0.10729
+2026-01-04 02:33:52 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 11/20 - Train Loss: 0.10874
+2026-01-04 02:33:57 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 11/20 - Val Loss: 0.11673
+2026-01-04 02:34:04 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 9/20 - Train Loss: 0.11058
+2026-01-04 02:34:09 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 8/20 - Train Loss: 0.11779
+2026-01-04 02:34:10 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 9/20 - Val Loss: 0.11624
+2026-01-04 02:34:14 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 8/20 - Val Loss: 0.11723
+2026-01-04 02:34:41 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 14/20 - Train Loss: 0.10163
+2026-01-04 02:34:47 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 14/20 - Val Loss: 0.10634
+2026-01-04 02:34:52 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 12/20 - Train Loss: 0.10641
+2026-01-04 02:34:57 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 12/20 - Val Loss: 0.11141
+2026-01-04 02:35:14 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 10/20 - Train Loss: 0.10941
+2026-01-04 02:35:18 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 9/20 - Train Loss: 0.11394
+2026-01-04 02:35:20 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 10/20 - Val Loss: 0.11535
+2026-01-04 02:35:24 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 9/20 - Val Loss: 0.11495
+2026-01-04 02:35:40 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 15/20 - Train Loss: 0.09916
+2026-01-04 02:35:45 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 15/20 - Val Loss: 0.10180
+2026-01-04 02:35:51 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 13/20 - Train Loss: 0.10270
+2026-01-04 02:35:58 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 13/20 - Val Loss: 0.11078
+2026-01-04 02:46:38 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 5/20 - Train Loss: 0.12865
+2026-01-04 02:46:44 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 11/20 - Train Loss: 0.10596
+2026-01-04 02:46:48 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:46:48 - StockPredictionPipeline - ERROR - [tasks.py:49] - Redis cache error: Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:46:48 - StockPredictionPipeline - ERROR - [inference_pipeline.py:186] - Child prediction failed: Local model load failed for NVDA: Missing PyTorch file for NVDA: outputs/NVDA/NVDA_child_model.pt
+2026-01-04 02:46:48 - StockPredictionPipeline - INFO - [api.py:207] - Model missing for NVDA, triggering auto-training.
+2026-01-04 02:46:48 - StockPredictionPipeline - WARNING - [api.py:211] - Parent model missing. Triggering parent training first.
+2026-01-04 02:46:48 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 10/20 - Train Loss: 0.11216
+2026-01-04 02:46:49 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 5/20 - Val Loss: 0.12412
+2026-01-04 02:46:49 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 11/20 - Val Loss: 0.11822
+2026-01-04 02:46:54 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 10/20 - Val Loss: 0.11486
+2026-01-04 02:47:00 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 16/20 - Train Loss: 0.09841
+2026-01-04 02:47:05 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 16/20 - Val Loss: 0.10295
+2026-01-04 02:47:09 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 14/20 - Train Loss: 0.10034
+2026-01-04 02:47:13 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 14/20 - Val Loss: 0.10798
+2026-01-04 02:47:37 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 6/20 - Train Loss: 0.12416
+2026-01-04 02:47:40 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 1/20 - Train Loss: 0.36998
+2026-01-04 02:47:41 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 6/20 - Val Loss: 0.12405
+2026-01-04 02:47:43 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 12/20 - Train Loss: 0.10442
+2026-01-04 02:47:44 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 1/20 - Val Loss: 0.18920
+2026-01-04 02:47:46 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 17/20 - Train Loss: 0.09472
+2026-01-04 02:47:48 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 11/20 - Train Loss: 0.10970
+2026-01-04 02:47:48 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 12/20 - Val Loss: 0.11415
+2026-01-04 02:47:50 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 17/20 - Val Loss: 0.09916
+2026-01-04 02:47:53 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 11/20 - Val Loss: 0.11053
+2026-01-04 02:47:55 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 15/20 - Train Loss: 0.09757
+2026-01-04 02:47:59 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 15/20 - Val Loss: 0.10577
+2026-01-04 02:48:22 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 7/20 - Train Loss: 0.12072
+2026-01-04 02:48:26 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 7/20 - Val Loss: 0.12362
+2026-01-04 02:48:26 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 2/20 - Train Loss: 0.16081
+2026-01-04 02:48:31 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 2/20 - Val Loss: 0.14985
+2026-01-04 02:48:33 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 18/20 - Train Loss: 0.09257
+2026-01-04 02:48:38 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 18/20 - Val Loss: 0.09716
+2026-01-04 02:48:42 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 13/20 - Train Loss: 0.10155
+2026-01-04 02:48:44 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 16/20 - Train Loss: 0.09612
+2026-01-04 02:48:47 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 12/20 - Train Loss: 0.10641
+2026-01-04 02:48:48 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 13/20 - Val Loss: 0.10864
+2026-01-04 02:48:48 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 16/20 - Val Loss: 0.10233
+2026-01-04 02:48:52 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 12/20 - Val Loss: 0.10948
+2026-01-04 02:49:12 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 8/20 - Train Loss: 0.11657
+2026-01-04 02:49:15 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 8/20 - Val Loss: 0.11839
+2026-01-04 02:49:16 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 3/20 - Train Loss: 0.14076
+2026-01-04 02:49:20 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 3/20 - Val Loss: 0.13920
+2026-01-04 02:49:22 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 19/20 - Train Loss: 0.08820
+2026-01-04 02:49:26 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 19/20 - Val Loss: 0.09760
+2026-01-04 02:49:31 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 17/20 - Train Loss: 0.09302
+2026-01-04 02:49:35 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 17/20 - Val Loss: 0.09927
+2026-01-04 02:49:40 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 14/20 - Train Loss: 0.10184
+2026-01-04 02:49:44 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 13/20 - Train Loss: 0.10508
+2026-01-04 02:49:45 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 14/20 - Val Loss: 0.10649
+2026-01-04 02:49:48 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 13/20 - Val Loss: 0.10724
+2026-01-04 02:49:58 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 9/20 - Train Loss: 0.11541
+2026-01-04 02:50:01 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 9/20 - Val Loss: 0.11249
+2026-01-04 02:50:03 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 4/20 - Train Loss: 0.13095
+2026-01-04 02:50:07 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 4/20 - Val Loss: 0.13213
+2026-01-04 02:50:10 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 20/20 - Train Loss: 0.08700
+2026-01-04 02:50:14 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 20/20 - Val Loss: 0.09404
+2026-01-04 02:50:21 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 18/20 - Train Loss: 0.09131
+2026-01-04 02:50:26 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 18/20 - Val Loss: 0.09849
+2026-01-04 02:50:40 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 15/20 - Train Loss: 0.09696
+2026-01-04 02:50:45 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 14/20 - Train Loss: 0.10200
+2026-01-04 02:50:46 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 15/20 - Val Loss: 0.10791
+2026-01-04 02:50:50 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 10/20 - Train Loss: 0.11367
+2026-01-04 02:50:51 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 14/20 - Val Loss: 0.10716
+2026-01-04 02:50:55 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 10/20 - Val Loss: 0.11305
+2026-01-04 02:50:59 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 5/20 - Train Loss: 0.12802
+2026-01-04 02:51:04 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 5/20 - Val Loss: 0.12784
+2026-01-04 02:51:19 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 19/20 - Train Loss: 0.09056
+2026-01-04 02:51:23 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 19/20 - Val Loss: 0.09778
+2026-01-04 02:51:49 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 11/20 - Train Loss: 0.10946
+2026-01-04 02:51:50 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 16/20 - Train Loss: 0.09613
+2026-01-04 02:51:54 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 11/20 - Val Loss: 0.10922
+2026-01-04 02:51:55 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 15/20 - Train Loss: 0.10043
+2026-01-04 02:51:56 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 16/20 - Val Loss: 0.10603
+2026-01-04 02:51:58 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 6/20 - Train Loss: 0.12330
+2026-01-04 02:52:00 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 15/20 - Val Loss: 0.10704
+2026-01-04 02:52:03 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 6/20 - Val Loss: 0.12390
+2026-01-04 02:52:16 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 20/20 - Train Loss: 0.08601
+2026-01-04 02:52:21 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 20/20 - Val Loss: 0.09383
+2026-01-04 02:52:43 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 12/20 - Train Loss: 0.10709
+2026-01-04 02:52:47 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 12/20 - Val Loss: 0.10687
+2026-01-04 02:52:53 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 7/20 - Train Loss: 0.11944
+2026-01-04 02:52:54 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 17/20 - Train Loss: 0.09236
+2026-01-04 02:52:57 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 7/20 - Val Loss: 0.12138
+2026-01-04 02:52:59 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 16/20 - Train Loss: 0.09826
+2026-01-04 02:52:59 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 17/20 - Val Loss: 0.10199
+2026-01-04 02:53:04 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 16/20 - Val Loss: 0.10482
+2026-01-04 02:53:37 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 13/20 - Train Loss: 0.10465
+2026-01-04 02:53:42 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 13/20 - Val Loss: 0.11243
+2026-01-04 02:53:47 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 8/20 - Train Loss: 0.11684
+2026-01-04 02:53:52 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 8/20 - Val Loss: 0.12042
+2026-01-04 02:53:59 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 18/20 - Train Loss: 0.08885
+2026-01-04 02:54:05 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 17/20 - Train Loss: 0.09591
+2026-01-04 02:54:05 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 18/20 - Val Loss: 0.09865
+2026-01-04 02:54:07 - StockPredictionPipeline - INFO - [evaluation.py:93] - ^GSPC → MSE: 0.05814, RMSE: 0.24113, R²: 0.93992
+2026-01-04 02:54:10 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 17/20 - Val Loss: 0.09992
+2026-01-04 02:54:12 - StockPredictionPipeline - INFO - [training_pipeline.py:113] - ✅ Parent ^GSPC trained successfully
+2026-01-04 02:54:36 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 14/20 - Train Loss: 0.10251
+2026-01-04 02:54:42 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 14/20 - Val Loss: 0.10570
+2026-01-04 02:54:48 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 9/20 - Train Loss: 0.11428
+2026-01-04 02:54:53 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 9/20 - Val Loss: 0.11828
+2026-01-04 02:55:05 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 19/20 - Train Loss: 0.08744
+2026-01-04 02:55:11 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 18/20 - Train Loss: 0.09223
+2026-01-04 02:55:11 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 19/20 - Val Loss: 0.09733
+2026-01-04 02:55:17 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 18/20 - Val Loss: 0.10153
+2026-01-04 02:55:33 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 15/20 - Train Loss: 0.10073
+2026-01-04 02:55:39 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 15/20 - Val Loss: 0.09947
+2026-01-04 02:55:47 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 10/20 - Train Loss: 0.11195
+2026-01-04 02:55:51 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 10/20 - Val Loss: 0.11723
+2026-01-04 02:56:10 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 20/20 - Train Loss: 0.08703
+2026-01-04 02:56:16 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 20/20 - Val Loss: 0.09582
+2026-01-04 02:56:16 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 19/20 - Train Loss: 0.09026
+2026-01-04 02:56:22 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 19/20 - Val Loss: 0.10004
+2026-01-04 02:56:30 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 16/20 - Train Loss: 0.09796
+2026-01-04 02:56:34 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 16/20 - Val Loss: 0.10339
+2026-01-04 02:56:41 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 11/20 - Train Loss: 0.10929
+2026-01-04 02:56:46 - StockPredictionPipeline - INFO - [evaluation.py:93] - ^GSPC → MSE: 0.05784, RMSE: 0.24050, R²: 0.94024
+2026-01-04 02:56:47 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 11/20 - Val Loss: 0.11112
+2026-01-04 02:56:52 - StockPredictionPipeline - INFO - [training_pipeline.py:113] - ✅ Parent ^GSPC trained successfully
+2026-01-04 02:57:09 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 20/20 - Train Loss: 0.08956
+2026-01-04 02:57:14 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 20/20 - Val Loss: 0.09514
+2026-01-04 02:57:20 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 17/20 - Train Loss: 0.09565
+2026-01-04 02:57:25 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 17/20 - Val Loss: 0.09493
+2026-01-04 02:57:32 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 12/20 - Train Loss: 0.10667
+2026-01-04 02:57:35 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 12/20 - Val Loss: 0.11373
+2026-01-04 02:58:08 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 18/20 - Train Loss: 0.09213
+2026-01-04 02:58:14 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 18/20 - Val Loss: 0.09290
+2026-01-04 02:58:22 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 13/20 - Train Loss: 0.10510
+2026-01-04 02:58:26 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 13/20 - Val Loss: 0.11346
+2026-01-04 02:58:57 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 19/20 - Train Loss: 0.09296
+2026-01-04 02:59:01 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 19/20 - Val Loss: 0.09104
+2026-01-04 02:59:10 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 14/20 - Train Loss: 0.10426
+2026-01-04 02:59:15 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 14/20 - Val Loss: 0.10746
+2026-01-04 02:59:46 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 20/20 - Train Loss: 0.08755
+2026-01-04 02:59:51 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 20/20 - Val Loss: 0.09223
+2026-01-04 03:00:00 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 15/20 - Train Loss: 0.10116
+2026-01-04 03:00:03 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 15/20 - Val Loss: 0.10590
+2026-01-04 03:00:49 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 16/20 - Train Loss: 0.09848
+2026-01-04 03:00:54 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 16/20 - Val Loss: 0.10363
+2026-01-04 03:01:06 - StockPredictionPipeline - INFO - [evaluation.py:93] - ^GSPC → MSE: 0.05943, RMSE: 0.24378, R²: 0.93861
+2026-01-04 03:01:13 - StockPredictionPipeline - INFO - [training_pipeline.py:113] - ✅ Parent ^GSPC trained successfully
+2026-01-04 03:01:34 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 17/20 - Train Loss: 0.09551
+2026-01-04 03:01:37 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 17/20 - Val Loss: 0.09979
+2026-01-04 03:01:59 - StockPredictionPipeline - INFO - [evaluation.py:93] - ^GSPC → MSE: 0.06037, RMSE: 0.24569, R²: 0.93765
+2026-01-04 03:02:03 - StockPredictionPipeline - INFO - [training_pipeline.py:113] - ✅ Parent ^GSPC trained successfully
+2026-01-04 03:02:10 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 18/20 - Train Loss: 0.09236
+2026-01-04 03:02:12 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 18/20 - Val Loss: 0.09897
+2026-01-04 03:02:40 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 19/20 - Train Loss: 0.09055
+2026-01-04 03:02:43 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 19/20 - Val Loss: 0.09925
+2026-01-04 03:03:10 - StockPredictionPipeline - INFO - [training.py:32] - Epoch 20/20 - Train Loss: 0.08711
+2026-01-04 03:03:12 - StockPredictionPipeline - INFO - [training.py:42] - Epoch 20/20 - Val Loss: 0.09436
+2026-01-04 03:03:36 - StockPredictionPipeline - INFO - [evaluation.py:93] - ^GSPC → MSE: 0.06193, RMSE: 0.24885, R²: 0.93602
+2026-01-04 03:03:42 - StockPredictionPipeline - INFO - [training_pipeline.py:113] - ✅ Parent ^GSPC trained successfully
+2026-01-04 03:05:29 - StockPredictionPipeline - INFO - [evaluation.py:93] - ^GSPC → MSE: 0.05797, RMSE: 0.24078, R²: 0.94011
+2026-01-04 03:05:32 - StockPredictionPipeline - INFO - [training_pipeline.py:113] - ✅ Parent ^GSPC trained successfully
